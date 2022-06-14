@@ -1,4 +1,4 @@
-#include <stdui.h>
+#include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
 
@@ -43,12 +43,10 @@ int main(void)
 			{
 				password[index] -= diff_half2;
 				break;
-			}
+			
 		}
 	}
 
 	printf("%s", password);
 	return (0);
-}
-		
-		    			
+}	    			
